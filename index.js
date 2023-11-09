@@ -1,6 +1,7 @@
-// Get references to the button plus joke display elements in the HTML
+// Get references to the button, joke display and laoding spinner elements in the HTML
 const btnElement = document.getElementById("btn");
 const jokeEl = document.getElementById("joke");
+const loadingSpinner = document.getElementById("loadingSpinner");
  // Define the API key for the dad jokes API (assuming it's a placeholder for a real key)
  const apiKey = "YVguAG6KmqXoRqPZhaOMRQ==KQIqDVyCj3wTYZx5";
  // Define the options for the API request, included the API key in the headers
@@ -17,6 +18,8 @@ const apiUrl = "https://api.api-ninjas.com/v1/dadjokes";
 // Define an asynchronous function to fetch and display a dad joke
 async function getJoke() {
     try {
+        // Show the loading spinner
+        loadingSpinner.style.display = "block";
         // Update the joke display with a loading message
         jokeEl.innerText = "Updating...";
         // Disable the button during the request
@@ -43,6 +46,9 @@ async function getJoke() {
         
         // Update the joke display with an error message
         jokeEl.innerText = "An error happened, try again later!";
+    } finally {
+        // Hide the loading spinner regardless of success or failure
+        loadingSpinner.style.display = "none";
         // Enable the button again
         btnElement.disabled = false;
         btnElement.innerText = "Tell me a joke";
