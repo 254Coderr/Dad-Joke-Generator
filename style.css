@@ -3,8 +3,7 @@ body {
     background: linear-gradient(to left bottom,rgb(192, 130, 161),rgb(170, 88, 106),rgb(67, 181, 219));
     min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     font-family: monospace;
 }
 .container{
@@ -15,7 +14,9 @@ border-radius: 15px;
 width: 85%;
 text-align: center;
 color: aqua;
-;
+flex: 1; /* Use flex: 1 to make the container take up remaining space */
+display: flex;
+flex-direction: column;
 }
 .heading{
     font-size:35px;
@@ -42,5 +43,37 @@ color: aqua;
     color: rgb(187, 235, 13);
     box-shadow: 0 4px 4px rgba(0, 0,0, .3);
     transform: all 300ms ease;
+    margin: 0 auto;
 }
-    
+.loadingSpinner {
+    display: none; /* Initially hide the loading spinner */
+    border: 8px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top: 8px solid white;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+footer {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+a {
+    color: #85cc00; /* Set your preferred text color */
+    text-decoration: none; /* Remove underlining */
+    cursor: pointer; /* Set cursor to pointer */
+}
+
+a:hover {
+    color: #004466; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
