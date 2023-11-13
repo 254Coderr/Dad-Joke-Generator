@@ -47,9 +47,9 @@ flex-direction: column;
 }
 .loadingSpinner {
     display: none; /* Initially hide the loading spinner */
-    border: 8px solid rgba(255, 255, 255, 0.3);
+    border: 8px solid linear-gradient(to right, rgb(0, 255, 51), rgb(0, 0, 255), yellow, green, blue, indigo, violet);/* Colorful gradient */
     border-radius: 50%;
-    border-top: 8px solid white;
+    border-top: 8px solid rgb(249, 120, 0);
     width: 40px;
     height: 40px;
     animation: spin 1s linear infinite;
