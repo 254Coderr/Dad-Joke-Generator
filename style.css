@@ -70,7 +70,7 @@ footer {
 a {
     color: #92da0b; /* Set your preferred text color */
     text-decoration: none; /* Remove underlining */
-    cursor: pointer; /* Set cursor to pointer */
+    cursor: default; /* Set cursor to pointer */
 }
 
 a:hover {
