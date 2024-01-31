@@ -41,7 +41,7 @@ flex-direction: column;
     text-transform: uppercase;
     width: 200px;
     color: rgb(174, 219, 10);
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 4px rgba(18, 1, 1, 0.3);
     transform: all 300ms ease;
     margin: 0 auto;
     clip-path: circle(50%);
