@@ -1,13 +1,13 @@
 body {
     margin: 0;
-    background: linear-gradient(to left bottom,rgb(149, 14, 81),rgb(186, 84, 106),rgb(67, 181, 219));
+    background: linear-gradient(to left bottom,rgb(157, 9, 83),rgb(186, 84, 106),rgb(67, 181, 219));
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-family: monospace;
 }
 .container{
-background-color: rgb(205, 9, 9);
+background-color: rgb(195, 4, 4);
 padding: 20px;
 box-shadow: 0px 6px 10px rgba(9, 0, 0, 0.4);
 border-radius: 15px;
