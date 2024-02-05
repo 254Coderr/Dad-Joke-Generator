@@ -13,7 +13,7 @@ box-shadow: 0px 6px 10px rgba(5, 0, 0, 0.4);
 border-radius: 15px;
 width: 85%;
 text-align: center;
-color: rgb(11, 237, 237);
+color: rgb(3, 255, 255);
 flex: 1; /* Use flex: 1 to make the container take up remaining space */
 display: flex;
 flex-direction: column;
