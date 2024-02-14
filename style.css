@@ -50,7 +50,7 @@ flex-direction: column;
     display: none; /* Initially hide the loading spinner */
     border: 8px solid linear-gradient(to right, rgb(7, 225, 51), rgb(10, 10, 173), yellow, green, blue, indigo, violet);/* Colorful gradient */
     border-radius: 50%;
-    border-top: 8px solid rgb(232, 116, 8);
+    border-top: 8px solid rgb(207, 104, 8);
     width: 40px;
     height: 40px;
     animation: spin 1s linear infinite;
