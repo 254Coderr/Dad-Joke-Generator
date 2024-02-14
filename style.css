@@ -40,7 +40,7 @@ flex-direction: column;
     border-color: rgba(19, 198, 106, 0.2);
     text-transform: uppercase;
     width: 200px;
-    color: rgb(194, 239, 30);
+    color: rgb(197, 244, 24);
     box-shadow: 0 4px 4px rgba(18, 1, 1, 0.3);
     transform: all 300ms ease;
     margin: 0 auto;
@@ -48,7 +48,7 @@ flex-direction: column;
 }
 .loadingSpinner {
     display: none; /* Initially hide the loading spinner */
-    border: 8px solid linear-gradient(to right, rgb(7, 225, 51), rgb(12, 12, 204), yellow, green, blue, indigo, violet);/* Colorful gradient */
+    border: 8px solid linear-gradient(to right, rgb(7, 225, 51), rgb(10, 10, 173), yellow, green, blue, indigo, violet);/* Colorful gradient */
     border-radius: 50%;
     border-top: 8px solid rgb(232, 116, 8);
     width: 40px;
