@@ -64,7 +64,7 @@ flex-direction: column;
     100% { transform: rotate(360deg); }
 }
 footer {
-    color: rgb(241, 239, 239);
+    color: rgb(249, 247, 247);
     text-align: center;
     margin-bottom: 20px;
 }
